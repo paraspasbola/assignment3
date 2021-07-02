@@ -16,7 +16,7 @@ height=1000
 print("the Present height of the flight is "+str(ch)+".Pilot,we request you to")
 if(ch<=height):
     print("safe to land .")
-elif (ch>height and curht<5000):
+elif (ch>height and ch<5000):
      print("Bring down to 1000ft.")          #Example:Input-1000
 else:
     print("Turn around and try later.")
